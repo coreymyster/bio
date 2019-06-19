@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+.container {
+  display: grid;
+}
+.gridNav {
+  grid-template-columns: 10fr 1fr 1fr;
+  padding-left: 50px;
+}
+.topNav {
+  background-color: #FFFFFF;
+  margin-bottom: -45px;
+}
+.topNav p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #657362;
+}
+.topNav img {
+  width: 40px;
+}
+.topNav ul {
+  float: right;
+}
+.topNav ul li {
+  display: inline;
+}
+.hero {
+  background-color: #8DA698;
+  height: 400px;
+  background-image: url('../img/svg/scenic-background.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.hero h1 {
+  padding: 50px 0 0 60px;
+  color: #F0F2F2;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+.hero p {
+  padding: 10px 0 0 60px;
+  color: #F0F2F2;
+  font-family: 'Quicksand', sans-serif;
+  width: 50%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.education h2 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #657362;
+  padding-top: 30px;
+}
+.eduHistory {
+  grid-template-columns: 6fr 6fr;
+  text-align: center;
+}
+.eduHistory h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #657362;
+}
+.eduHistory p {
+  font-family: 'Quicksand', sans-serif;
+  color: #657362;
+}
