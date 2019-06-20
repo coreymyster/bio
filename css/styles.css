@@ -86,6 +86,7 @@ body {
 .projects p {
   font-family: 'Quicksand', sans-serif;
   color: #F0F2F2;
+  padding: 0 100px;
 }
 .projects .links img {
   width: 15px;
