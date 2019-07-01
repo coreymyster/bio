@@ -20,6 +20,7 @@ body {
 }
 .topNav img {
   width: 40px;
+  padding-right: 20px;
 }
 .topNav ul {
   float: right;
@@ -35,20 +36,20 @@ body {
   background-position: right;
 }
 .hero h1 {
-  padding: 50px 0 0 60px;
+  padding: 30px 0 0 40px;
   color: #F0F2F2;
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
 }
 .hero p {
-  padding: 10px 0 0 60px;
+  padding: 5px 0 0 40px;
   color: #F0F2F2;
   font-family: 'Quicksand', sans-serif;
-  width: 50%;
+  width: 85%;
   font-weight: 400;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 24px;
 }
 .education h2 {
   text-align: center;
@@ -59,7 +60,7 @@ body {
   padding-top: 30px;
 }
 .eduHistory {
-  grid-template-columns: 6fr 6fr;
+  grid-template-columns: 12fr;
   text-align: center;
 }
 .eduHistory h3 {
@@ -86,7 +87,7 @@ body {
 .projects p {
   font-family: 'Quicksand', sans-serif;
   color: #F0F2F2;
-  padding: 0 100px;
+  padding: 0 15px;
 }
 .projects .links img {
   width: 15px;
@@ -96,7 +97,7 @@ body {
   color: #F0F2F2;
 }
 .projects .thumbnail {
-  width: 350px;
+  width: 60%;
   border-radius: 10px;
   text-decoration: none;
   border-style: solid;
@@ -104,6 +105,49 @@ body {
   border-color: #F0F2F2;
 }
 .projectGrid {
-  grid-template-columns: 6fr 6fr;
+  grid-template-columns: 12fr;
   text-align: center;
+}
+@media only screen and (min-width: 570px) {
+  .topNav img {
+    padding-right: 10px;
+  }
+  .eduHistory {
+    grid-template-columns: 6fr 6fr;
+  }
+  .hero p {
+    padding: 10px 0 0 60px;
+    width: 70%;
+  }
+  .hero h1 {
+    padding: 50px 0 0 60px;
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 860px) {
+  .projectGrid {
+    grid-template-columns: 4fr 4fr 4fr;
+  }
+  .projects .thumbnail {
+    width: 250px;
+  }
+  .projects p {
+    padding: 0 15px;
+  }
+  .hero p {
+    padding: 10px 0 0 60px;
+    width: 50%;
+    line-height: 26px;
+  }
+}
+@media only screen and (min-width: 1115px) {
+  .projectGrid {
+    grid-template-columns: 6fr 6fr;
+  }
+  .projects .thumbnail {
+    width: 350px;
+  }
+  .projects p {
+    padding: 0 100px;
+  }
 }
